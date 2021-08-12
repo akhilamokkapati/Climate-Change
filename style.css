@@ -1,0 +1,182 @@
+body{
+  background-image: url("assets/wallpaper.jpg");
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.quote{
+  text-align:center;
+  white-space: nowrap;
+  margin-left: 230px;
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  font-size: 20px;
+}
+
+/*navigation bar*/
+#bar {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.5em;
+  background-color: darkred;
+}
+.navbar {
+  display:inline;
+}
+li a {
+  text-decoration: none;
+  color:white;
+  font-size: 1.5em;
+  padding: 0.2em;
+  font-weight: bold;
+}
+li a:hover{
+  background-color:rgb(206, 57, 2);
+}
+
+/* changing the font style for h1*/
+h1{
+  font-weight:strong;
+  color:orange;
+}
+
+/*to display the reasons in boxes*/
+.causes{
+  display:inline-block;
+  width:900px;
+}
+.reasons{
+  display:block;
+  width:95%;
+  float:left;
+  background:#000;
+  color:#fff;
+  margin-left:0.3%;
+  text-align:center;
+}
+
+/* I created a class called point as the paragraph texts are clashing with the information in the boxes*/
+.point{
+  text-align:center;
+  width:14em;
+}
+
+/*styling the images*/
+img{
+  width: 250px;
+}
+
+/*styling the what can I do's paragraph*/
+#ways{
+  text-align: left;
+  font-size: 20px;
+}
+
+/* STYLING THE KEY FEATURES*/
+button { 
+  display: inline-block;
+  padding: 6px 17px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:orange;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 7px #999;
+
+}
+
+button:hover {background-color:orangered}
+button:active {
+  background-color: rgb(218, 80, 16);
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  padding: 10px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  font-weight:bold;
+  margin-bottom: 180px;
+}
+
+#fact {
+  border-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  font-weight:bolder;
+  height: 100px;
+
+}
+
+/* STYLE PERSONALIZE IT KEY FEATURE  */
+
+.scriptQues {
+  background: darkorange;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black;
+  height: 230px;
+}
+
+.scriptItem{
+  margin-top:10px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+  height: 20px;
+}
+
+#scriptReturned {
+  text-align:center;
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+}
+/*Flex box*/
+.flexboxContainer{
+  display:flex; 
+  flex-direction:row;
+  flex-wrap:nowrap;
+}
+.flexItem{
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/*Breakpoint 1*/
+@media screen and (max-width: 991px){
+  .flexboxContainer{
+    flex-wrap:wrap;
+  }
+}
